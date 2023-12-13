@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GSA__c</fullName>
+    <description>Government Services Administration number for Government Accounts</description>
+    <externalId>false</externalId>
+    <label>GSA #</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GS-35F-474DA</fullName>
+                <default>false</default>
+                <label>GS-35F-474DA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

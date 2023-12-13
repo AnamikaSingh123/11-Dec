@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewals__c</fullName>
+    <description>Roll-Up Count of Opportunity Renewals associated with this Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of Opportunity Renewals associated with this Account.</inlineHelpText>
+    <label>#Renewals</label>
+    <summaryFilterItems>
+        <field>Opportunity.SBQQ__Renewal__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

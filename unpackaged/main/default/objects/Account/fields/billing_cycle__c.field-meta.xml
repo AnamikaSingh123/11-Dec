@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>billing_cycle__c</fullName>
+    <externalId>false</externalId>
+    <label>Billing Cycle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>Quarterly – Jan / Apr / Jul / Oct</fullName>
+                <default>false</default>
+                <label>Quarterly – Jan / Apr / Jul / Oct</label>
+            </value>
+            <value>
+                <fullName>Quarterly – Feb / May / Aug / Nov</fullName>
+                <default>false</default>
+                <label>Quarterly – Feb / May / Aug / Nov</label>
+            </value>
+            <value>
+                <fullName>Quarterly – Mar / Jun / Sept / Dec</fullName>
+                <default>false</default>
+                <label>Quarterly – Mar / Jun / Sept / Dec</label>
+            </value>
+            <value>
+                <fullName>Non-Recurring</fullName>
+                <default>false</default>
+                <label>Non-Recurring</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

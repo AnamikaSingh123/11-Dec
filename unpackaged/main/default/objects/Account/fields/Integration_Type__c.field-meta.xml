@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Integration Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access Keys</fullName>
+                <default>false</default>
+                <label>Access Keys</label>
+            </value>
+            <value>
+                <fullName>LTI</fullName>
+                <default>false</default>
+                <label>LTI</label>
+            </value>
+            <value>
+                <fullName>No Integration</fullName>
+                <default>false</default>
+                <label>No Integration</label>
+            </value>
+            <value>
+                <fullName>OATH2</fullName>
+                <default>false</default>
+                <label>OATH2</label>
+            </value>
+            <value>
+                <fullName>SAML</fullName>
+                <default>false</default>
+                <label>SAML</label>
+            </value>
+            <value>
+                <fullName>SCORM</fullName>
+                <default>false</default>
+                <label>SCORM</label>
+            </value>
+            <value>
+                <fullName>TBD</fullName>
+                <default>false</default>
+                <label>TBD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

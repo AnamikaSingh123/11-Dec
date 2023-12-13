@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>1.  Cold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1.  Cold</label>
+            </value>
+            <value>
+                <fullName>2.  Working</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2.  Working</label>
+            </value>
+            <value>
+                <fullName>3.  Qualifying</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3.  Qualifying</label>
+            </value>
+            <value>
+                <fullName>4.  Passed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4.  Passed</label>
+            </value>
+            <value>
+                <fullName>5.  Nurture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5.  Nurture</label>
+            </value>
+            <value>
+                <fullName>6.  Avoid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>6.  Avoid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
